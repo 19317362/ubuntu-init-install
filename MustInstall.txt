@@ -1,0 +1,26 @@
+add-apt-repository universe
+
+apt install -y \
+        aria2 automake autoconf\
+         \
+	build-essential \
+	curl cmake chromium-browser\
+	git gettext\
+	libtool \
+	mc \
+	net-tools ncdu \
+        p7zip-full pkg-config\
+	subversion \
+	vim   \
+
+ubuntu-drivers autoinstall
+
+apt remove iio-sensor-proxy
+
+# https://docs.docker.com/install/linux/docker-ce/ubuntu/
+
+#https://www.unixmen.com/top-things-to-do-after-installing-ubuntu-15-04/
+
+# sstp-client
+# https://kuricat.com/gist/snap-install-too-slow-zmbjy
+
