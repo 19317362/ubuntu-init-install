@@ -1,15 +1,15 @@
 add-apt-repository universe
 
 apt install -y \
-        aria2 automake autoconf\
+        aria2 automake autoconf \
          \
 	build-essential \
-	curl cmake chromium-browser\
+	curl cmake chromium-browser \
 	git gettext\
 	libtool \
 	mc \
 	net-tools ncdu \
-        p7zip-full pkg-config\
+        p7zip-full pkg-config \
 	subversion \
 	vim   \
 
